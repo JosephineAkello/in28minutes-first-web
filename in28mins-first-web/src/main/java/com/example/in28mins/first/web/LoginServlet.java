@@ -8,8 +8,6 @@ public class LoginServlet extends HttpServlet{
         throws ServletException, java.io.IOException{
       request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(
               request,response);
-      request.setAttribute("name", request.getParameter("name");
-      request.setAttribute("password", request.getParameter("password");
       )
     }
 
@@ -18,8 +16,6 @@ public class LoginServlet extends HttpServlet{
             throws ServletException, java.io.IOException{
         request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(
                 request,response);
-        request.setAttribute("name", request.getParameter("name");
-        request.setAttribute("password", request.getParameter("password");
       )
     }
 
