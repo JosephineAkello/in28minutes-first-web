@@ -9,9 +9,13 @@
 </head>
 <body>
 <%--//this is a scriplet--%>
-<%
-Date date = new Date();
-%>
-My First JSP ${name}
+<%--<%--%>
+<%--Date date = new Date();--%>
+<%--%>--%>
+<form action="/login.d" method="post">
+    Enter your name <input type="text" name="name">
+    <input type="submit" value="Login">
+</form>
+
 </body>
 </html>
